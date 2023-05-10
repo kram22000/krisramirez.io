@@ -3,7 +3,6 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -25,19 +24,19 @@ of what each of the values mean.
 export const info = {
     firstName: "Kris",
     lastName: "Ramirez",
-    initials: "KR", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "KR",
     position: "a Technical Engineer II",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+    selfPortrait: self, 
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'Fueled by coffee'
         },
         {
             emoji: '🌎',
-            text: 'based in Irvine, CA'
+            text: 'Based in Irvine, CA'
         },
         {
             emoji: "💼",
@@ -57,10 +56,15 @@ export const info = {
         },
         
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/kris-ramirez-024b50275/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        }
+        },
+        {
+            link: "https://krisramirezresume.tiiny.site/",
+            icon: "fa fa-file-text",
+            label: 'resume'
+        },
         
         
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
@@ -91,32 +95,31 @@ export const info = {
             label: 'cooking',
             emoji: '🌶'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "KonfidentChat",
-            live: "https://github.com/kram22000/KonfidentChat", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/kram22000/KonfidentChat", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://konfident-chat-io.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/kram22000/KonfidentChat.io", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/kram22000/KonfidentChat",
+            title: "Issue Tracker",
+            live: "https://bug-tracker-report-laas.vercel.app/",
+            source: "https://github.com/kram22000/BugTrackerReport.io.git",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/kram22000/KonfidentChat",
+            title: "Salary Lookup",
+            live: "https://github.com/kram22000",
+            source: "https://github.com/kram22000/salaryinfo.github.io",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/kram22000/KonfidentChat",
+            title: "Country Information",
+            live: "https://map-info-kram22000.vercel.app/",
+            source: "https://github.com/kram22000/MapInfo",
             image: mock4
         }
     ]
