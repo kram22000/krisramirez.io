@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/kris_ramirez.io/static/css/main.1f6ca860.css",
-    "main.js": "/kris_ramirez.io/static/js/main.a76c0942.js",
+    "main.js": "/kris_ramirez.io/static/js/main.a0878f2e.js",
     "static/media/mock3.png": "/kris_ramirez.io/static/media/mock3.f2e72d3dfaf726c6e8ba.png",
     "static/media/self.png": "/kris_ramirez.io/static/media/self.205f628ce2dcff708f58.png",
     "static/media/mock4.png": "/kris_ramirez.io/static/media/mock4.649f23330f78596503d3.png",
-    "static/media/mock5.png": "/kris_ramirez.io/static/media/mock5.c9b5f54e8517e13fc897.png",
     "static/media/mock2.png": "/kris_ramirez.io/static/media/mock2.4e5fd0396d0d8ffe50f9.png",
     "static/media/mock1.png": "/kris_ramirez.io/static/media/mock1.ad59aceadc311fd5ebc6.png",
     "index.html": "/kris_ramirez.io/index.html",
     "main.1f6ca860.css.map": "/kris_ramirez.io/static/css/main.1f6ca860.css.map",
-    "main.a76c0942.js.map": "/kris_ramirez.io/static/js/main.a76c0942.js.map"
+    "main.a0878f2e.js.map": "/kris_ramirez.io/static/js/main.a0878f2e.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6ca860.css",
-    "static/js/main.a76c0942.js"
+    "static/js/main.a0878f2e.js"
   ]
 }
